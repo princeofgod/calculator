@@ -1,3 +1,6 @@
+//Setting screen properties
+screen.disabled  = 'true';
+
 //Declaring all variables
 let screen = document.getElementById("screen") ;
 let clrbtn = document.getElementById("CE")
@@ -36,6 +39,9 @@ const equals = document.getElementById('equals');
 equals.addEventListener('click', equalFunction);
 function equalFunction(){
   let result;
+  if(sign==''&& num1=='' && num2 ==''){
+    
+  }
   if (sign == '+'){
     num2 = screen.value;
     screen.value = parseInt(num1)+parseInt(num2);
@@ -49,6 +55,7 @@ function equalFunction(){
     num2 = screen.value;
     screen.value = parseInt(num1)/parseInt(num2);
   }
+
   if(screen.value == NaN){
     clearMemory();
   }
@@ -90,13 +97,3 @@ function point(){
     screen.value = screen.value + '.';
   }
 }
-//Trying to add error catcher
-// function errorCAtcher(){
-//   if (sign =='' ){}
-// }
-// const page = document.onload()
-// function loader(){
-//   clearMemory()
-// }
-// document.addEventListener('load', clearMemory)
-screen.disabled  = 'true';
