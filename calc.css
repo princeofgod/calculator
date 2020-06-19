@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/* Main calculator container */
+.container{
+  margin:auto;
+  width:250px;
+  height:300px;
+  position:absolute;
+  top:150px;
+  left:550px;
+  background-color: rgb(159, 200, 236);
+  border-radius:5px;
+}
+
+/* calculator screen */
+#screen{
+  width:200px;
+  margin:20px 18px 0;
+  line-height:40px;
+  font-size:2rem;
+  text-align:right;
+}
+
+/* Buttons */
+button{
+  margin-top: 20px;
+  margin-left:2.5px;
+  cursor: pointer;
+
+}
+#one, #four, #seven, #negative{
+  margin-left:5px;
+  
+}
+#equals, #CE{
+  width:80px;
+  margin:0 3px;
+}
+
+/* Copyright */
+.footer{
+  position:absolute;
+  top:550px;
+  float:right;
+  left:600px;
+  font-size:.8rem;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+  color:rgb(228, 132, 7);
+}
+
+@media screen and (min-width: 320px){
+  .container{
+    border:solid 1px black;
+    margin:auto;
+    width:250px;
+    height:300px;
+    position:relative;
+    top:10px;
+    left:10px;
+  }
+  .footer{
+    position:relative;
+    top:50px;
+    margin:auto;
+    float:right;
+    left:-10px;
+    font-size:.8rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
