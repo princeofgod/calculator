@@ -38,10 +38,6 @@ function displayNumbers(e){
 const equals = document.getElementById('equals');
 equals.addEventListener('click', equalFunction);
 function equalFunction(){
-  let result;
-  if(sign==''&& num1=='' && num2 ==''){
-    
-  }
   if (sign == '+'){
     num2 = screen.value;
     screen.value = parseInt(num1)+parseInt(num2);
