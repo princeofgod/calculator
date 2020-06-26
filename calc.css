@@ -17,7 +17,7 @@
 
 /* calculator screen */
 #screen{
-  width:200px;
+  width:200px
   margin:20px 18px 0;
   line-height:40px;
   font-size:2rem;
@@ -36,8 +36,8 @@ button{
   
 }
 #equals, #CE{
-  width:50px;
-  margin:0 3px;
+  width:80px;
+  margin: 3px;
 }
 
 /* Copyright */
@@ -74,4 +74,8 @@ span{
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+}
+#equals, #CE{
+  width:55px;
+  margin: 3px;
 }
