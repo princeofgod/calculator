@@ -74,8 +74,19 @@ span{
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
+/* calculator screen */
+#screen{
+  width:160px;
+  margin:20px 18px 0;
+  line-height:40px;
+  font-size:2rem;
+  text-align:right;
 }
+
 #equals, #CE{
   width:55px;
   margin: 3px;
+}
+
 }
